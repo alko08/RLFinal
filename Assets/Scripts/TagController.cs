@@ -3,7 +3,10 @@ using UnityEngine;
 public class TagController : MonoBehaviour
 {
     [SerializeField] private TagAgent agent1;
+    [SerializeField] private GameObject taggerSign1;
     [SerializeField] private TagAgent agent2;
+    [SerializeField] private GameObject taggerSign2;
+    [SerializeField] private bool showReward;
 
     public float roundDuration = 60f; // one minutes
     public float timer;
@@ -26,6 +29,13 @@ public class TagController : MonoBehaviour
             timer = 0f;
             lastTag = 0f;
         }
+
+        if (showReward)
+        {
+            float reward1 = agent1.GetCumulativeReward();
+            float reward2 = agent2.GetCumulativeReward();
+            Debug.Log($"Reward1: {reward1} | Reward2: {reward2}");
+        }
     }
 
     public void tagged()
@@ -38,9 +48,11 @@ public class TagController : MonoBehaviour
 
             agent1.isTagger = !isOneTagger;
             agent1.AddReward(reward);
+            taggerSign1.SetActive(!isOneTagger);
 
             agent2.isTagger = isOneTagger;
             agent2.AddReward(-reward);
+            taggerSign2.SetActive(isOneTagger);
 
             string tagger = isOneTagger ? "agent1" : "agent2";
             string runner = (!isOneTagger) ? "agent1" : "agent2";

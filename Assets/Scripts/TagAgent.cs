@@ -9,11 +9,13 @@ public class TagAgent : Agent
 {
     [SerializeField] private Transform otherTransform;
     [SerializeField] private TagController tagMaster;
+    [SerializeField] private GameObject taggerSign;
+    // [SerializeField] private bool logDebug;
 
     // === Components & Input Variables ===
     private Rigidbody rb;
     private InputAction moveAction;
-    private InputAction jumpAction;
+    // private InputAction jumpAction;
     private Quaternion initialRotation;
 
     // === Movement Variables ===
@@ -47,6 +49,7 @@ public class TagAgent : Agent
         {
             transform.localPosition = new Vector3(Random.Range(-5f, 5f), 1, Random.Range(-9f, -7f));
         }
+        taggerSign.SetActive(isTagger);
         transform.rotation = initialRotation;
     }
     public override void CollectObservations(VectorSensor sensor)
@@ -82,6 +85,10 @@ public class TagAgent : Agent
         float distance = Vector3.Distance(transform.localPosition, otherTransform.localPosition) / 25f;
         // Debug.Log($"Distance {distance}");
         AddReward(reward * distance);
+        // if (logDebug)
+        // {
+        //     Debug.Log("Doing Action!");
+        // }
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)

@@ -8,10 +8,10 @@ public class TagController : MonoBehaviour
     [SerializeField] private GameObject taggerSign2;
     [SerializeField] private bool showReward;
 
-    public float roundDuration = 60f; // one minutes
     public float timer;
-    public float lastTag = 0f;
-    public float tagCooldown = 1f;
+    private float roundDuration = 60f; // one minutes
+    private float lastTag = 0f;
+    private float tagCooldown = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

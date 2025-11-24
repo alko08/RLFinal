@@ -107,7 +107,7 @@ public class TagAgent : Agent
         // {
         //     isGrounded = true;
         // }
-        if (collision.collider.CompareTag("agent"))
+        if (collision.collider.CompareTag("agent") && isTagger)
         {
             tagMaster.tagged();
         }

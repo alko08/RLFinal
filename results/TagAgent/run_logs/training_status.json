@@ -2,32 +2,59 @@
     "TagAgent": {
         "checkpoints": [
             {
-                "steps": 499990,
-                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-499990.onnx",
-                "reward": null,
-                "creation_time": 1763956058.6147463,
+                "steps": 497499949,
+                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-497499949.onnx",
+                "reward": -531.8958457767964,
+                "creation_time": 1764634737.1666815,
                 "auxillary_file_paths": [
-                    "results\\TagAgent\\TagAgent\\TagAgent-499990.pt"
+                    "results\\TagAgent\\TagAgent\\TagAgent-497499949.pt"
                 ]
             },
             {
-                "steps": 930379,
-                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-930379.onnx",
+                "steps": 497999987,
+                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-497999987.onnx",
                 "reward": null,
-                "creation_time": 1763956786.7151527,
+                "creation_time": 1764635417.3935559,
                 "auxillary_file_paths": [
-                    "results\\TagAgent\\TagAgent\\TagAgent-930379.pt"
+                    "results\\TagAgent\\TagAgent\\TagAgent-497999987.pt"
+                ]
+            },
+            {
+                "steps": 498499945,
+                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-498499945.onnx",
+                "reward": -1028.8554086446761,
+                "creation_time": 1764636093.8789985,
+                "auxillary_file_paths": [
+                    "results\\TagAgent\\TagAgent\\TagAgent-498499945.pt"
+                ]
+            },
+            {
+                "steps": 498999983,
+                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-498999983.onnx",
+                "reward": 878.7619857311249,
+                "creation_time": 1764636771.099299,
+                "auxillary_file_paths": [
+                    "results\\TagAgent\\TagAgent\\TagAgent-498999983.pt"
+                ]
+            },
+            {
+                "steps": 499322501,
+                "file_path": "results\\TagAgent\\TagAgent\\TagAgent-499322501.onnx",
+                "reward": -960.3242146968842,
+                "creation_time": 1764637249.6427777,
+                "auxillary_file_paths": [
+                    "results\\TagAgent\\TagAgent\\TagAgent-499322501.pt"
                 ]
             }
         ],
-        "elo": 1041.5795683899278,
+        "elo": -352.1254232833997,
         "final_checkpoint": {
-            "steps": 930379,
+            "steps": 499322501,
             "file_path": "results\\TagAgent\\TagAgent.onnx",
-            "reward": null,
-            "creation_time": 1763956786.7151527,
+            "reward": -960.3242146968842,
+            "creation_time": 1764637249.6427777,
             "auxillary_file_paths": [
-                "results\\TagAgent\\TagAgent\\TagAgent-930379.pt"
+                "results\\TagAgent\\TagAgent\\TagAgent-499322501.pt"
             ]
         }
     },

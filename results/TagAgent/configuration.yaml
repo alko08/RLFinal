@@ -38,7 +38,7 @@ behaviors:
     init_path: null
     keep_checkpoints: 5
     even_checkpoints: false
-    max_steps: 5000000
+    max_steps: 10000000000
     time_horizon: 64
     summary_freq: 10000
     threaded: false
@@ -75,8 +75,8 @@ checkpoint_settings:
   run_id: TagAgent
   initialize_from: null
   load_model: false
-  resume: false
-  force: true
+  resume: true
+  force: false
   train_model: false
   inference: false
   results_dir: results

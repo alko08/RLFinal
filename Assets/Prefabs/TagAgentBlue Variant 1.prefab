@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5148145635597989291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2314799004788809711, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: tagMaster
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170975954493182315, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176737557156106899, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      propertyPath: m_Name
+      value: TagAgentBlue Variant 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2314799004788809711, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4176737557156106899, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1383429745795409353}
+  m_SourcePrefab: {fileID: 100100000, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+--- !u!1 &4523568031818878262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8770498614161782941, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+  m_PrefabInstance: {fileID: 5148145635597989291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9117295004297537336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4176737557156106899, guid: 9a178c5b0c89cdc4998d42296aa45c1e, type: 3}
+  m_PrefabInstance: {fileID: 5148145635597989291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1383429745795409353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9117295004297537336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b780e406be602c742a9975bdb4cc00f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TagAgentScripted
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  otherTransform: {fileID: 0}
+  tagMaster: {fileID: 0}
+  taggerSign: {fileID: 4523568031818878262}
+  isTagger: 0
+  doSwap: 1

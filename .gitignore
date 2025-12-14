@@ -75,3 +75,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
+results/TagAgent/TagAgent/events.out.tfevents.1764007627.Ginger.32148.0

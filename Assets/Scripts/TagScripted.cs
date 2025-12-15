@@ -13,7 +13,7 @@ public class TagScripted : MonoBehaviour
 
     // === Movement Variables ===
     // private bool isGrounded = true;
-    private float moveSpeed = 1f;
+    private float moveSpeed = 6f;
     private float turnSpeed = 100f;
     // private float jumpForce = 3f;
 

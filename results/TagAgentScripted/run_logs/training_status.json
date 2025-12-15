@@ -2,58 +2,58 @@
     "TagAgent": {
         "checkpoints": [
             {
-                "steps": 56999982,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-56999982.onnx",
-                "reward": -337.1408473385705,
-                "creation_time": 1765724623.5387332,
+                "steps": 116999981,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-116999981.onnx",
+                "reward": -445.43083424038355,
+                "creation_time": 1765807430.9836519,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-56999982.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-116999981.pt"
                 ]
             },
             {
-                "steps": 57499982,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-57499982.onnx",
-                "reward": -458.6254743602541,
-                "creation_time": 1765725168.8209698,
+                "steps": 117499941,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-117499941.onnx",
+                "reward": -898.6906848748525,
+                "creation_time": 1765808048.249225,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-57499982.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-117499941.pt"
                 ]
             },
             {
-                "steps": 57999942,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-57999942.onnx",
-                "reward": -339.2887085808648,
-                "creation_time": 1765725715.8036208,
+                "steps": 117999941,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-117999941.onnx",
+                "reward": -332.4738043149312,
+                "creation_time": 1765808664.7682095,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-57999942.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-117999941.pt"
                 ]
             },
             {
-                "steps": 58499942,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-58499942.onnx",
+                "steps": 118499965,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-118499965.onnx",
                 "reward": null,
-                "creation_time": 1765726262.6278002,
+                "creation_time": 1765809282.01733,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-58499942.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-118499965.pt"
                 ]
             },
             {
-                "steps": 58745718,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-58745718.onnx",
-                "reward": -198.34695127275256,
-                "creation_time": 1765726590.4914556,
+                "steps": 118666917,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.onnx",
+                "reward": null,
+                "creation_time": 1765809505.0482137,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-58745718.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 58745718,
+            "steps": 118666917,
             "file_path": "results\\TagAgentScripted\\TagAgent.onnx",
-            "reward": -198.34695127275256,
-            "creation_time": 1765726590.4914556,
+            "reward": null,
+            "creation_time": 1765809505.0482137,
             "auxillary_file_paths": [
-                "results\\TagAgentScripted\\TagAgent\\TagAgent-58745718.pt"
+                "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.pt"
             ]
         }
     },

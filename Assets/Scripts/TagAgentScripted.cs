@@ -126,20 +126,11 @@ public class TagAgentScripted : Agent
         }
     }
 
-    // private void OnCollisionExit(Collision collision)
-    // {
-    //     if (collision.collider.CompareTag("ground"))
-    //     {
-    //         isGrounded = false;
-    //     }
-    // }
-
-    // private void OnCollisionStay(Collision collision)
-    // {
-    //     if (collision.collider.CompareTag("ground"))
-    //     {
-    //         isGrounded = true;
-    //     }
-    // }
-
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.collider.CompareTag("agent") && isTagger)
+        {
+            tagMaster.tagged();
+        }
+    }
 }

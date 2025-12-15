@@ -50,7 +50,7 @@ public class TagControllerScripted : MonoBehaviour
 
             agent2.isTagger = isOneTagger;
             taggerSign2.SetActive(isOneTagger);
-            agent2.runAway = 500;
+            agent2.runAway = 250;
 
             string tagger = isOneTagger ? "agent1" : "agent2";
             string runner = (!isOneTagger) ? "agent1" : "agent2";

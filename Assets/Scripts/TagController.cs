@@ -10,13 +10,14 @@ public class TagController : MonoBehaviour
 
     public float timer;
     private float roundDuration = 60f; // one minutes
-    private float lastTag = 0f;
+    private float lastTag = -10f;
     private float tagCooldown = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        timer = 0;
+        timer = 0f;
+        lastTag = -10f;
     }
 
     private void FixedUpdate()
@@ -27,7 +28,7 @@ public class TagController : MonoBehaviour
             agent1.EndEpisode();
             agent2.EndEpisode();
             timer = 0f;
-            lastTag = 0f;
+            lastTag = -10f;
         }
 
         if (showReward)

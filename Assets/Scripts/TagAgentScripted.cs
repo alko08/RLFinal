@@ -55,13 +55,16 @@ public class TagAgentScripted : Agent
         if (isTagger)
         {
             transform.localPosition = new Vector3(Random.Range(-5f, 5f), 1, Random.Range(9f, 7f));
+            transform.rotation = initialRotation;
+            transform.RotateAround(transform.position, transform.up, 180f);
         }
         else
         {
             transform.localPosition = new Vector3(Random.Range(-5f, 5f), 1, Random.Range(-9f, -7f));
+            transform.rotation = initialRotation;
         }
         taggerSign.SetActive(isTagger);
-        transform.rotation = initialRotation;
+        
 
         tagMaster.resetScripted(isTagger);
     }

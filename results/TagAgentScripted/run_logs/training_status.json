@@ -2,58 +2,58 @@
     "TagAgent": {
         "checkpoints": [
             {
-                "steps": 116999981,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-116999981.onnx",
-                "reward": -445.43083424038355,
-                "creation_time": 1765807430.9836519,
+                "steps": 236499965,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-236499965.onnx",
+                "reward": 612.365107818886,
+                "creation_time": 1765988022.1892257,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-116999981.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-236499965.pt"
                 ]
             },
             {
-                "steps": 117499941,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-117499941.onnx",
-                "reward": -898.6906848748525,
-                "creation_time": 1765808048.249225,
+                "steps": 236999989,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-236999989.onnx",
+                "reward": 615.8867041269938,
+                "creation_time": 1765988578.952548,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-117499941.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-236999989.pt"
                 ]
             },
             {
-                "steps": 117999941,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-117999941.onnx",
-                "reward": -332.4738043149312,
-                "creation_time": 1765808664.7682095,
+                "steps": 237499989,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-237499989.onnx",
+                "reward": 508.5137307378981,
+                "creation_time": 1765989133.1100628,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-117999941.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-237499989.pt"
                 ]
             },
             {
-                "steps": 118499965,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-118499965.onnx",
+                "steps": 237999949,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-237999949.onnx",
+                "reward": 534.7142571343315,
+                "creation_time": 1765989687.3416731,
+                "auxillary_file_paths": [
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-237999949.pt"
+                ]
+            },
+            {
+                "steps": 238292829,
+                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-238292829.onnx",
                 "reward": null,
-                "creation_time": 1765809282.01733,
+                "creation_time": 1765990038.6270301,
                 "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-118499965.pt"
-                ]
-            },
-            {
-                "steps": 118666917,
-                "file_path": "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.onnx",
-                "reward": null,
-                "creation_time": 1765809505.0482137,
-                "auxillary_file_paths": [
-                    "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.pt"
+                    "results\\TagAgentScripted\\TagAgent\\TagAgent-238292829.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 118666917,
+            "steps": 238292829,
             "file_path": "results\\TagAgentScripted\\TagAgent.onnx",
             "reward": null,
-            "creation_time": 1765809505.0482137,
+            "creation_time": 1765990038.6270301,
             "auxillary_file_paths": [
-                "results\\TagAgentScripted\\TagAgent\\TagAgent-118666917.pt"
+                "results\\TagAgentScripted\\TagAgent\\TagAgent-238292829.pt"
             ]
         }
     },

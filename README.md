@@ -1,5 +1,6 @@
 # Adversarial Tag, You're It
 In this project, we train two agents to play tag in Unity using the Unity ML-Agents Toolkit and reinforcement learning algorithms, specifically PPO.
+[Github](https://github.com/alko08/RLFinal/tree/main)
 
 ## Adversarial Tag: Emergent Strategies via Staged Curriculum Learning
 
@@ -39,3 +40,5 @@ There are many different guides out there to install Unity and the ML-Agents Too
 - [Installation guide from ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
 - [Unity manual installation documentation](https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Installation.html)
 - [Old Code Monkey Introduction to ML-Agents Video](https://youtu.be/zPFU30tbyKs?si=LsOX_CYjLRNPns28)
+
+There are multiple scenes and scripts included in this Github. To reproduce the results from this paper run "TagScene2" scene, with the ML-Agents config "tagAgentScripted.yaml". Specifically you can just run the final neural network "TagAgentsScriptedFinal.onnx". Everything can be found in their respective folder in "Assets".

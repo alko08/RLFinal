@@ -1,5 +1,5 @@
-# RLFinal
-In this project, we train two agents to play tag in Unity using the Unity ML-Agents Toolkit
+# Adversarial Tag, You're It
+In this project, we train two agents to play tag in Unity using the Unity ML-Agents Toolkit and reinforcement learning algorithms, specifically PPO.
 
 ## Adversarial Tag: Emergent Strategies via Staged Curriculum Learning
 
@@ -32,3 +32,10 @@ The agents were trained through 6 distinct iterations to bootstrap locomotion an
 - Toolkit: ML-Agents (C# SDK / Python API)
 - Algorithm: PPO (Actor-Critic)
 - State Space: Continuous (Relative positions and local environment data)
+
+## Installation
+
+There are many different guides out there to install Unity and the ML-Agents Toolkit. As instructed in the current guides we used Unity 6 and Python 3.10.12 for this project:
+- [Installation guide from ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
+- [Unity manual installation documentation](https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/Installation.html)
+- [Old Code Monkey Introduction to ML-Agents Video](https://youtu.be/zPFU30tbyKs?si=LsOX_CYjLRNPns28)
